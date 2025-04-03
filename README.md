@@ -34,7 +34,7 @@ Built using Node.js, Express, Socket.io, and WebRTC, BoardMeet ensures low-laten
 
 
 # 🛠️ Tech Stack
-Backend: Node.js, Express, Socket.io
+Backend: Node.js, Express, Socket.i
 Real-Time Communication: WebRTC, Socket.io
 Frontend (Deployed At): Netlify
 Hosting: Deployed on Heroku/Vercel/Render
