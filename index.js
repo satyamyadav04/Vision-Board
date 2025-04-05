@@ -8,15 +8,15 @@ const server = http.createServer(app);
 
 // require("dotenv").config();
 
-const io = socketIo(server, {
-  cors: {
-    origin: "https://charming-chebakia-38d373.netlify.app",
-    methods: ["GET", "POST"],
-  },
-});
+// const io = socketIo(server, {
+//   cors: {
+//     origin: "https://charming-chebakia-38d373.netlify.app",
+//     methods: ["GET", "POST"],
+//   },
+// });
 
-/*
-  to avoid the  cors origin error refer localhost as given below:
+
+  //to avoid the  cors origin error refer localhost as given below:
   const io = socketIo(server, {
   cors: {
     origin: "http://localhost:3000",
@@ -24,7 +24,7 @@ const io = socketIo(server, {
   },
 });
 
-*/
+
 
 app.use(cors());
 
